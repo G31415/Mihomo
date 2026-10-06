@@ -1,0 +1,40 @@
+# ============================================================
+# 重要：本仓库为公开仓库，以下文件含订阅链接、机场 token、
+# 控制面板 secret 等敏感信息，禁止提交！
+# ============================================================
+
+# mihomo 主配置
+config.yaml
+config.yml
+
+# 本地配置目录
+/config/
+/custom/
+
+# 订阅 / 节点相关
+*subscribe*
+*proxies*.yaml
+*proxies*.yml
+
+# mihomo 运行时产物
+*.dat
+*.mmdb
+*.db
+*.log
+cache.db
+geoip.dat
+geosite.dat
+country.mmdb
+GeoLite2-ASN.mmdb
+
+# 订阅缓存与备份
+*.bak
+*_backup.*
+*_old.*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
